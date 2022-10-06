@@ -1,0 +1,1361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  *{
+    font-family: 'Nunito', sans-serif;
+  }
+  nav{
+    background: rgb(2, 166, 71, 0.900);
+  }
+  section#navtop{
+    background: rgb(2, 166, 71, 0.900);
+    display: flex;
+  }
+  h1{
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  nav#navbar{
+    box-shadow: rgb(201, 201, 201) 4px 4px 4px 2px;
+  }
+  a#effect{  /** efeito nos botões da navbar **/
+      border-radius: 10px;
+  }
+  a#effect:hover{
+      background: white;
+      color: rgb(2, 166, 71, 0.900);
+      box-shadow: inset 0 0 0 3px rgb(2, 166, 71, 0.900);
+      transition: all 400ms ease;
+      border-radius: 10px;
+  }  /** Fim do efeito **/
+  div#welcome{
+      background: white;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+      display: table;
+  }
+  h1#bemv{
+      color: black;
+  }
+  body{
+      background: rgb(245, 245, 245);
+  }
+  h2#card{
+    font-size: 18px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1#vac{
+    color: rgb(59, 235, 167);
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+  }
+  div#vac{
+      text-align: center;
+      margin: auto;
+  }
+  h1#vac1{
+      font-weight: bold;
+      color: rgb(62, 27, 218);
+      font-size: 30px;
+      margin: auto;
+  }
+  div#vac1{
+    text-align: center;
+    margin: auto;
+  }
+  h1#vac2{
+      font-weight: bold;
+      color: red;
+      font-size: 30px;
+      margin: auto;
+  }
+  div#vac2{
+    text-align: center;
+    margin: auto;
+  }
+  div#doses{
+    display: inline-flex;
+  }
+  div#dose1{
+    margin-top: 40px;
+    background-color: rgb(212, 41, 84, 0.900);
+    padding: 5px;
+    border-radius: 3px;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div#dose2{
+    margin-top: 40px;
+    background-color: rgb(212, 41, 84, 0.900);
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5%;
+    float: right;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div#dose3{
+    margin-top: 40px;
+    background-color: rgb(212, 41, 84, 0.900);
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5%;
+    float: right;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div#dose4{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(212, 41, 84, 0.900);
+    padding: 5px;
+    border-radius: 3px;
+    float: right;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+  div#dose5{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(212, 41, 84, 0.900);
+    padding: 5px;
+    border-radius: 3px;
+    float: right;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+  div#lastvac{
+    margin-top: 20px;
+    display: inline;
+    float: left;
+    font-size: 18px;
+    color: black;
+    margin-left: 20%;
+    text-align: center;
+  }
+  div#lastvac2{
+    margin-top: 20px;
+    display: inline;
+    float: right;
+    font-size: 18px;
+    color: black;
+    margin-right: 20%;
+    text-align: center;
+  }
+  /** Retângulos */
+  div#alinhar{
+    display: flex;
+  }
+  div#alinhar2{
+    display: flex;
+  }
+  div#alinhar3{
+    display: flex;
+  }
+  div#uniatend{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgb(212, 57, 5, 0.900);
+    width: 300px;
+    height: 150px;
+  }
+  div#cronograma{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgb(70, 207, 196, 0.900);
+    width: 300px;
+    height: 150px;
+  }
+  div#perguntas{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgb(94, 71, 197, 0.900);
+    width: 300px;
+    height: 150px;
+  }
+  div#vacinados{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgba(6, 235, 63, 0.9);
+    width: 300px;
+    height: 150px;
+  }
+  div#entrada{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: rgb(219, 53, 235, 0.900);
+    width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  h2#quadrados{
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  h2#icons{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+  }
+  /** Vacinação por categorias */
+  h2#categorias{
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h2#cattext{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding: 4px;
+  }
+  section#cat{
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  div#cardcat{
+    background: rgb(32, 178, 170, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat2{
+    background: rgba(178, 90, 32, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat3{
+    background: rgba(214, 24, 24, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat4{
+    background: rgba(32, 178, 44, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat5{
+    background: rgba(15, 129, 72, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat6{
+    background: rgba(23, 54, 192, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat8{
+    background: rgba(199, 41, 165, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat9{
+    background: rgba(117, 11, 73, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat10{
+    background: rgba(28, 54, 41, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat11{
+    background: rgba(96, 96, 99, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat12{
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat13{
+    background: rgba(140, 0, 255, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat14{
+    background: rgba(197, 141, 20, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat15{
+    background: rgba(20, 162, 197, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat16{
+    background: rgba(24, 197, 110, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat17{
+    background: rgba(197, 59, 24, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat18{
+    background: rgba(204, 39, 61, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  /** Tabela últimos dias */
+  section#tabela7dias{
+    margin-bottom: 30px;
+  }
+  h1#tabela{
+    font-size: 22px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  /** CSS Unidades de atendimento */
+  section#unidadesatend{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: white;
+  }
+  h1#titleuni{
+    font-size: 22px;
+    color: black;
+  }
+  h2#subtitleuniatend{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  table#tableuniatend{
+    margin-top: 30px;
+  }
+  /** CSS entrada de vacinas */
+  section#entradadevacinas{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: white;
+    margin-bottom: 30px;
+  }
+  h1#titleentrada{
+    font-size: 22px;
+    color: black;
+  }
+  h2#subtitleentrada{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  table#tableentrada{
+    margin-top: 30px;
+  }
+  /** CSS lista de vacinados */
+  section#listadevacinados{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: white;
+    margin-bottom: 30px;
+  }
+  h1#titlevacinados{
+    font-size: 22px;
+    color: black;
+  }
+  div#registros_total{
+    margin-top: 20px;
+    padding: 10px;
+  }
+  h3#quantregistros{
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  /** Área de buscas por filtros dos beneficiários */
+  section#secbuscar{
+    margin-top: 30px;
+  }
+  h1#titlepesq{
+    font-size: 22px;
+    color: black;
+  }
+  section#resultpesquisa{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: white;
+    margin-bottom: 30px;
+  }
+
+  /** CSS perguntas e respostas */
+  section#perguntaserespostas{
+    border-radius: 10px;
+    margin-top: 30px;
+    background: white;
+    margin-bottom: 80px;
+  }
+  h1#titleperguntas{
+    font-size: 22px;
+    color: black;
+  }
+  table#tableperguntas{
+    margin-top: 30px;
+  }
+  h2#subtitleperguntas{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  /** Info beneficiarios */
+  section#infobene{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titlebeneficiario{
+    font-size: 22px;
+    color: black;
+  }
+  h2#subtitlebeneficiario{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  p#semRegistro{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #f44336;
+    border-radius: 5px;
+    width: 50%;
+  }
+  /** ÁREA DE CADASTROS */
+  h1#areacadastro{
+    font-size: 20px;
+    color: black;
+  }
+  section#cadastro{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h2#subtitlecadastro{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  h1#cadastro{
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  h2#iconscadastro{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+  }
+  div#cardcadastro1{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(16, 211, 130, 0.9);
+    width: 300px;
+    height: 110px;
+  }
+  div#cardcadastro2{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(219, 107, 14, 0.9);
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+  }
+  div#cardcadastro3{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(43, 102, 212, 0.9);
+    width: 300px;
+    height: 110px;
+  }
+  div#cardcadastro4{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(194, 52, 47, 0.9);
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+  }
+  div#cardcadastro5{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(10, 185, 33, 0.9);
+    width: 300px;
+    height: 110px;
+  }
+  div#cardcadastro6{
+    border-radius: 10px;
+    margin-top: 40px;
+    background: rgba(5, 2, 160, 0.9);
+    width: 300px;
+    height: 110px;
+    margin-bottom: 30px;
+  }
+  div#cardcadastro7{
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: rgba(114, 29, 163, 0.9);
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+  }
+  h1#moreinfo{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  /** CADASTRO DE VACINAS E DOSES APLICADAS */
+  section#cadastrovacinas{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titlevacinas{
+    font-size: 20px;
+    color: black;
+  }
+  div#cadastrovacconcluido{
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 40%;
+    background: rgb(26, 196, 91);
+    margin-top: 50px;
+  }
+  p#cadastrofeito{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  /** CADASTRO DE ENTRADA DE VACINAS */
+  section#cadastroentradas{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titleentradas{
+    font-size: 20px;
+    color: black;
+  }
+  /** CADASTRO DE VACINADOS CONTRA A COVID-19*/
+  section#cadastrovacinados{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titlevacinados{
+    font-size: 20px;
+    color: black;
+  }
+  article#cabecalhocadastro{
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  h2#cadastroconcluido{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /** EDITAR BENEFICIARIOS */
+  section#editarbeneficiario{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titlebeneficiario{
+    font-size: 20px;
+    color: black;
+  }
+  /** LOGIN */
+  body#corpologin{
+    background: rgb(189, 189, 189);
+  }
+  img#login{
+    width: 50%;
+    margin-bottom: 5px;
+  }
+  div#login{
+    margin-top: 10%;
+    width: 400px;
+    padding: 10px;
+  }
+  div#cadastro_user{
+    margin-top: 5%;
+    width: 400px;
+    padding: 10px;
+  }
+  h1#titlelogin{ 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  div#aviso{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(192, 33, 33, 0.94);
+    border: 1px solid rgba(192, 33, 33, 0.94);
+    color: white;
+  }
+  div#aviso2{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(208, 136, 28, 0.94);
+    border: 1px solid rgba(208, 136, 28, 0.94);
+    color: white;
+  }
+  div#aviso3{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(40, 163, 44, 0.94);
+    border: 1px solid rgba(40, 163, 44, 0.94);
+    color: white;
+  }
+  div#aviso4{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(192, 33, 33, 0.94);
+    border: 1px solid rgba(192, 33, 33, 0.94);
+    color: white;
+  }
+  div#aviso5{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(197, 131, 31, 0.94);
+    border: 1px solid rgba(197, 131, 31, 0.94);
+    color: white;
+  }
+  article#subtitlelogin{
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+  }
+  input#inputlogin::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+  }
+  /** RECUPERAR SENHA */
+  div#recup_senha{
+    margin-top: 5%;
+    width: 400px;
+    padding: 10px;
+  }
+  body#corporecuperar{
+    background: rgb(189, 189, 189);
+  }
+  /** ACESSO USUARIOS */
+  section#acessousuarios{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1#titleacesso{
+    font-size: 22px;
+    color: black;
+  }
+  h2#subtitleacesso{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  /** INFORMAÇÕES DA SECRETARIA */
+  h3#infosec{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  h3#infosec2{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  div#sobsec{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 30px;
+  }
+  div#about{
+    margin-top: 10px;
+  }
+  i#tagsobre{
+    background-color: green;
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px;
+  }
+  /** ÁREA DE CÁLCULO AUTOMÁTICO DE VACINAS */
+  h1#titledados{
+    font-size: 22px;
+    color: black;
+  }
+  section#dados{
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h2#subtitledados{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+  div#infodoses{
+    margin-top: 30px;
+  }
+  article#doses{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 3px;
+  }
+
+  /** RETIRAR SETAS DO INPUT TYPE NUMBER */
+  input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .accordion-button{
+      width: 50%;
+    }
+    .accordion-item{
+      border: none;
+    }
+
+  /** DEIXANDO O SISTEMA RESPONSIVO */
+  
+  @media screen and (max-width: 425px) {
+    
+    h2#ultvac{
+      width: 60%;
+      padding-top: 80px;
+    }
+    h2#ultvac2{
+      width: 60%;
+    }
+    div#dose1{
+      width: 100%;
+      display: block;
+      margin-top: 20px;
+      margin-left: 0%;
+    }
+    div#dose2{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 0%;
+    }
+    div#dose3{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 0%;
+    }
+    div#dose4{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 0%;
+    }
+    div#dose5{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 0%;
+    }
+    div#lastvac{
+      display: block;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+    div#lastvac2{
+      display: block;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+    div#uniatend{
+      width: 100%;
+      height: 100%;
+    }
+    div#cronograma{
+      width: 100%;
+      height: 100%;
+    }
+    div#perguntas{
+      width: 100%;
+      height: 100%;
+    }
+    div#vacinados{
+      width: 100%;
+      height: 100%;
+    }
+    div#entrada{
+      width: 100%;
+      height: 100%;
+    }
+    div#alinhar2{
+      display: block;
+    }
+    div#alinhar{
+      display: block;
+    }
+    footer#footer{
+      width: 100%;
+      height: 100%;
+    }
+    div#linhas{
+      display: block;
+    }
+    section#bottom{
+      height: 120%;
+      width: 100%;
+    }
+    div#listavacinados{
+      display: block;
+    }
+    div#down{
+      margin-top: 60px;
+      width: 80%;
+    }
+    div#cpf{
+      padding-top: 5px;
+    }
+    div#sus{
+      padding-top: 5px;
+    }
+    .accordion-button{
+      width: 100%;
+    }
+    div#aviso4{
+      width: 100%;
+    }
+    
+}
+  
+  @media screen and (max-width: 768px) {
+      
+      h2#ultvac{
+        width: 60%;
+        padding-top: 80px;
+      }
+      h2#ultvac2{
+        width: 60%;
+      }
+      div#dose1{
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      div#dose2{
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      div#dose3{
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      div#dose4{
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      div#dose5{
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      div#lastvac{
+        display: block;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+      }
+      div#lastvac2{
+        display: block;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+      }
+      div#uniatend{
+        width: 100%;
+        height: 100%;
+      }
+      div#cronograma{
+        width: 100%;
+        height: 100%;
+      }
+      div#perguntas{
+        width: 100%;
+        height: 100%;
+      }
+      div#vacinados{
+        width: 100%;
+        height: 100%;
+      }
+      div#entrada{
+        width: 100%;
+        height: 100%;
+      }
+      div#alinhar2{
+        display: block;
+      }
+      div#alinhar{
+        display: block;
+      }
+      footer#footer{
+        width: 100%;
+        height: 100%;
+      }
+      div#linhas{
+        display: block;
+      }
+      section#bottom{
+        height: 120%;
+        width: 100%;
+      }
+      div#listavacinados{
+        display: block;
+      }
+      div#down{
+        margin-top: 60px;
+        width: 80%;
+      }
+      div#idade{
+        padding-top: 5px;
+      }
+      div#cate{
+        padding-top: 5px;
+      }
+      div#dose{
+        padding-top: 5px;
+      }
+      div#unid{
+        padding-top: 5px;
+      }
+      .accordion-button{
+        width: 100%;
+      }
+      div#aviso4{
+        width: 100%;
+      }
+      
+    }
+  
+
+  @media screen and (max-width: 800px) {
+    
+    h2#ultvac{
+      width: 60%;
+      padding-top: 80px;
+    }
+    h2#ultvac2{
+      width: 60%;
+    }
+    div#dose1{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 2%;
+    }
+    div#dose2{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 2%;
+    }
+    div#dose3{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 2%;
+    }
+    div#dose4{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 2%;
+    }
+    div#dose5{
+      width: 100%;
+      display: block;
+      margin-top: 5px;
+      margin-left: 2%;
+    }
+    div#lastvac{
+      display: block;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+    div#lastvac2{
+      display: block;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+    div#uniatend{
+      width: 100%;
+      height: 100%;
+    }
+    div#cronograma{
+      width: 100%;
+      height: 100%;
+    }
+    div#perguntas{
+      width: 100%;
+      height: 100%;
+    }
+    div#vacinados{
+      width: 100%;
+      height: 100%;
+    }
+    div#entrada{
+      width: 100%;
+      height: 100%;
+    }
+    div#alinhar2{
+      display: block;
+    }
+    div#alinhar{
+      display: block;
+    }
+    footer#footer{
+      width: 100%;
+      height: 100%;
+    }
+    div#linhas{
+      display: block;
+    }
+    section#bottom{
+      height: 120%;
+      width: 100%;
+    }
+    div#listavacinados{
+      display: block;
+    }
+    div#down{
+      margin-top: 60px;
+      width: 80%;
+    }
+    div#idade{
+      padding-top: 5px;
+    }
+    div#cate{
+      padding-top: 5px;
+    }
+    div#dose{
+      padding-top: 5px;
+    }
+    div#unid{
+      padding-top: 5px;
+    }
+    .accordion-button{
+      width: 100%;
+    }
+    div#aviso4{
+      width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+  
+  h2#ultvac{
+    width: 60%;
+    padding-top: 80px;
+  }
+  h2#ultvac2{
+    width: 60%;
+  }
+  div#dose1{
+    width: 100%;
+    display: block;
+  }
+  div#dose2{
+    width: 100%;
+    display: block;
+  }
+  div#dose3{
+    width: 100%;
+    display: block;
+  }
+  div#dose4{
+    width: 100%;
+    display: block;
+  }
+  div#dose5{
+    width: 100%;
+    display: block;
+  }
+  div#lastvac{
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  div#lastvac2{
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  
+  div#alinhar2{
+    display: block;
+  }
+  div#alinhar{
+    display: block;
+  }
+  footer#footer{
+    width: 100%;
+    height: 100%;
+  }
+  div#linhas{
+    display: block;
+  }
+  section#bottom{
+    height: 120%;
+    width: 100%;
+  }
+  div#listavacinados{
+    display: block;
+  }
+  div#idade{
+    padding-top: 5px;
+  }
+  div#cate{
+    padding-top: 5px;
+  }
+  div#dose{
+    padding-top: 5px;
+  }
+  div#unid{
+    padding-top: 5px;
+  }
+  div#aviso4{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  
+  h2#ultvac{
+    width: 60%;
+    padding-top: 80px;
+  }
+  h2#ultvac2{
+    width: 60%;
+  }
+  div#dose1{
+    width: 100%;
+    display: block;
+  }
+  div#dose2{
+    width: 100%;
+    display: block;
+  }
+  div#dose3{
+    width: 100%;
+    display: block;
+  }
+  div#dose4{
+    width: 100%;
+    display: block;
+  }
+  div#uniatend{
+    width: 100%;
+    height: 100%;
+  }
+  div#cronograma{
+    width: 100%;
+    height: 100%;
+  }
+  div#perguntas{
+    width: 100%;
+    height: 100%;
+  }
+  div#vacinados{
+    width: 100%;
+    height: 100%;
+  }
+  div#entrada{
+    width: 100%;
+    height: 100%;
+  }
+  div#alinhar2{
+    display: block;
+  }
+  div#alinhar{
+    display: block;
+  }
+  footer#footer{
+    width: 100%;
+    height: 100%;
+  }
+  div#linhas{
+    display: block;
+  }
+  section#bottom{
+    height: 120%;
+    width: 100%;
+  }
+  div#listavacinados{
+    display: block;
+  }
+  div#down{
+    margin-top: 60px;
+    width: 80%;
+  }
+  div#idade{
+    padding-top: 5px;
+  }
+  div#cate{
+    padding-top: 5px;
+  }
+  div#dose{
+    padding-top: 5px;
+  }
+  div#unid{
+    padding-top: 5px;
+  }
+  
+}
+ 
+@media screen and (max-width: 1366px) {
+  
+  h2#ultvac{
+    width: 60%;
+    padding-top: 80px;
+  }
+  h2#ultvac2{
+    width: 60%;
+  }
+  div#dose1{
+    width: 100%;
+    display: block;
+  }
+  div#dose2{
+    width: 100%;
+    display: block;
+  }
+  div#dose3{
+    width: 100%;
+    display: block;
+  }
+  div#dose4{
+    width: 100%;
+    display: block;
+  }
+  div#uniatend{
+    width: 100%;
+    height: 100%;
+  }
+  div#cronograma{
+    width: 100%;
+    height: 100%;
+  }
+  div#perguntas{
+    width: 100%;
+    height: 100%;
+  }
+  div#vacinados{
+    width: 100%;
+    height: 100%;
+  }
+  div#entrada{
+    width: 100%;
+    height: 100%;
+  }
+  div#alinhar2{
+    display: block;
+  }
+  div#alinhar{
+    display: block;
+  }
+  footer#footer{
+    width: 100%;
+    height: 100%;
+  }
+  div#linhas{
+    display: block;
+  }
+  section#bottom{
+    height: 120%;
+    width: 100%;
+  }
+  div#listavacinados{
+    display: block;
+  }
+  div#down{
+    margin-top: 60px;
+    width: 80%;
+  }
+  div#idade{
+    padding-top: 5px;
+  }
+  div#cate{
+    padding-top: 5px;
+  }
+  div#dose{
+    padding-top: 5px;
+  }
+  div#unid{
+    padding-top: 5px;
+  }
+  
+}
+  
