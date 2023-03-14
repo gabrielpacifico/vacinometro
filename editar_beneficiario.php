@@ -268,6 +268,7 @@ $id = $_GET['id'];
                           <option <?=($categoria == 'Adolescentes de 12 a 17 anos')?'selected':''?> > Adolescentes de 12 a 17 anos </option>
                           <option <?=($categoria == 'Crianças de 5 a 11 anos')?'selected':''?> > Crianças de 5 a 11 anos </option>
                           <option <?=($categoria == 'Crianças de 3 e 4 anos')?'selected':''?> > Crianças de 3 e 4 anos </option>
+                          <option <?=($categoria == 'Crianças de 6 meses à 4 anos')?'selected':''?> > Crianças de 6 meses à 4 anos </option>
                           <option <?=($categoria == 'Gestantes e puerperas')?'selected':''?> > Gestantes e puerperas </option>
  
                         </select>
@@ -340,6 +341,7 @@ $id = $_GET['id'];
                           <option <?=($vacina == 'FIOCRUZ/ASTRAZENECA')?'selected':''?> > FIOCRUZ/ASTRAZENECA </option>
                           <option <?=($vacina == 'PFIZER-BELGIVA')?'selected':''?> > PFIZER-BELGIVA </option>
                           <option <?=($vacina == 'PFIZER-PEDIATRICA')?'selected':''?> > PFIZER-PEDIÁTRICA </option>
+                          <option <?=($vacina_4 == 'PFIZER-BABY')?'selected':''?> > PFIZER-BABY </option>
                           <option <?=($vacina == 'JANSSEN PHARMACEUTICA NV')?'selected':''?> > JANSSEN PHARMACEUTICA NV </option>
                         </select>
                     </div>
@@ -417,6 +419,7 @@ $id = $_GET['id'];
                           <option <?=($vacina_2 == 'FIOCRUZ/ASTRAZENECA')?'selected':''?> > FIOCRUZ/ASTRAZENECA </option>
                           <option <?=($vacina_2 == 'PFIZER-BELGIVA')?'selected':''?> > PFIZER-BELGIVA </option>
                           <option <?=($vacina_2 == 'PFIZER-PEDIATRICA')?'selected':''?> > PFIZER-PEDIÁTRICA </option>
+                          <option <?=($vacina_4 == 'PFIZER-BABY')?'selected':''?> > PFIZER-BABY </option>
                           <option <?=($vacina_2 == 'JANSSEN PHARMACEUTICA NV')?'selected':''?> > JANSSEN PHARMACEUTICA NV </option>
                         </select>
                     </div>
@@ -494,6 +497,7 @@ $id = $_GET['id'];
                           <option <?=($vacina_3 == 'FIOCRUZ/ASTRAZENECA')?'selected':''?> > FIOCRUZ/ASTRAZENECA </option>
                           <option <?=($vacina_3 == 'PFIZER-BELGIVA')?'selected':''?> > PFIZER-BELGIVA </option>
                           <option <?=($vacina_3 == 'PFIZER-PEDIATRICA')?'selected':''?> > PFIZER-PEDIÁTRICA </option>
+                          <option <?=($vacina_4 == 'PFIZER-BABY')?'selected':''?> > PFIZER-BABY </option>
                           <option <?=($vacina_3 == 'JANSSEN PHARMACEUTICA NV')?'selected':''?> > JANSSEN PHARMACEUTICA NV </option>
                         </select>
                     </div>
@@ -571,6 +575,7 @@ $id = $_GET['id'];
                           <option <?=($vacina_4 == 'FIOCRUZ/ASTRAZENECA')?'selected':''?> > FIOCRUZ/ASTRAZENECA </option>
                           <option <?=($vacina_4 == 'PFIZER-BELGIVA')?'selected':''?> > PFIZER-BELGIVA </option>
                           <option <?=($vacina_4 == 'PFIZER-PEDIATRICA')?'selected':''?> > PFIZER-PEDIÁTRICA </option>
+                          <option <?=($vacina_4 == 'PFIZER-BABY')?'selected':''?> > PFIZER-BABY </option>
                           <option <?=($vacina_4 == 'JANSSEN PHARMACEUTICA NV')?'selected':''?> > JANSSEN PHARMACEUTICA NV </option>
                         </select>
                     </div>

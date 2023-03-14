@@ -312,6 +312,7 @@ if(!isset($_SESSION['usuario'])){
                           <option value="FIOCRUZ/ASTRAZENECA">FIOCRUZ/ASTRAZENECA</option>
                           <option value="PFIZER-BELGIVA">PFIZER-BELGIVA</option>
                           <option value="PFIZER-PEDIATRICA">PFIZER-PEDIÁTRICA</option>
+                          <option value="PFIZER-BABY">PFIZER-BABY</option>
                           <option value="JANSSEN PHARMACEUTICA NV">JANSSEN PHARMACEUTICA NV</option>
                         </select>
                     </div>
@@ -383,6 +384,7 @@ if(!isset($_SESSION['usuario'])){
                                       <option value="FIOCRUZ/ASTRAZENECA">FIOCRUZ/ASTRAZENECA</option>
                                       <option value="PFIZER-BELGIVA">PFIZER-BELGIVA</option>
                                       <option value="PFIZER-PEDIATRICA">PFIZER-PEDIÁTRICA</option>
+                                      <option value="PFIZER-BABY">PFIZER-BABY</option>
                                       <option value="JANSSEN PHARMACEUTICA NV">JANSSEN PHARMACEUTICA NV</option>
                                     </select>
                                 </div>
@@ -457,6 +459,7 @@ if(!isset($_SESSION['usuario'])){
                                       <option value="FIOCRUZ/ASTRAZENECA">FIOCRUZ/ASTRAZENECA</option>
                                       <option value="PFIZER-BELGIVA">PFIZER-BELGIVA</option>
                                       <option value="PFIZER-PEDIATRICA">PFIZER-PEDIÁTRICA</option>
+                                      <option value="PFIZER-BABY">PFIZER-BABY</option>
                                       <option value="JANSSEN PHARMACEUTICA NV">JANSSEN PHARMACEUTICA NV</option>
                                     </select>
                                 </div>
@@ -532,6 +535,7 @@ if(!isset($_SESSION['usuario'])){
                                       <option value="FIOCRUZ/ASTRAZENECA">FIOCRUZ/ASTRAZENECA</option>
                                       <option value="PFIZER-BELGIVA">PFIZER-BELGIVA</option>
                                       <option value="PFIZER-PEDIATRICA">PFIZER-PEDIÁTRICA</option>
+                                      <option value="PFIZER-BABY">PFIZER-BABY</option>
                                       <option value="JANSSEN PHARMACEUTICA NV">JANSSEN PHARMACEUTICA NV</option>
                                     </select>
                                 </div>

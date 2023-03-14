@@ -308,7 +308,12 @@
     margin: 5px;
   }
   div#cardcat18{
-    background: rgba(204, 39, 61, 0.9);
+    background: rgba(39, 204, 149, 0.9);
+    border-radius: 3px;
+    margin: 5px;
+  }
+  div#cardcat19{
+    background: rgba(42, 39, 204, 0.9);
     border-radius: 3px;
     margin: 5px;
   }

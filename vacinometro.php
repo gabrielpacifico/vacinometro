@@ -542,6 +542,22 @@
       <?php } ?>
 
       <?php
+      /** CRIANÇAS DE 6 MESES À 4 ANOS */
+
+      $quant_categoria = "SELECT count(categoria) as categoria from beneficiarios where categoria = 'Crianças de 6 meses à 4 anos'";
+      $categoria_result = mysqli_query($conexao, $quant_categoria);
+
+      while ($array = mysqli_fetch_array($categoria_result)) {
+        $resultado_crian_2 = $array['categoria'];
+
+      ?>
+        <div class="col-md-5" id="cardcat19">
+          <h2 id="cattext">Crianças de 6 meses à 4 anos: <?php echo $resultado_crian_2 ?> </h2>
+        </div>
+
+      <?php } ?>
+
+      <?php
       /** GESTANTES E PUERPERAS */
 
       $quant_categoria = "SELECT count(categoria) as categoria from beneficiarios where categoria = 'Gestantes e puerperas'";
